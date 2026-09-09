@@ -1,0 +1,13 @@
+Check,Setting,Result,Interpretation
+Primary monthly review threshold,≥10 reviews,551 valid city-months,Retains 81.63% of observed city-month coverage
+Threshold sensitivity,≥5 reviews,576 consecutive comparisons; 6 extreme spikes,Higher coverage but lower monthly stability
+Threshold sensitivity,≥10 reviews,479 consecutive comparisons; 2 extreme spikes,Primary analysis
+Threshold sensitivity,≥20 reviews,311 consecutive comparisons; 4 extreme spikes,Lower coverage but larger monthly samples
+Primary drift metric,Jensen-Shannon distance,Mean = 0.1407; Median = 0.1327,Suitable for probability distributions
+Alternative drift metric,Cosine distance,Correlation with JS = 0.8736,Strong agreement between metrics
+Spike threshold sensitivity,Robust Z > 2.0,23 spikes,More sensitive
+Spike threshold sensitivity,Robust Z > 2.5,12 spikes,Moderately conservative
+Spike threshold sensitivity,Robust Z > 3.0,5 spikes,Strong anomalies
+Primary spike threshold,Robust Z > 3.5,2 spikes,Conservative extreme-drift definition
+Primary extreme case,Miami Nov→Dec 2020,JS = 0.4237; Robust Z = 4.60,Large drift but low sample and heterogeneous attraction effects
+Primary extreme case,Marrakech Nov→Dec 2024,JS = 0.2977; Robust Z = 4.52,Threshold-robust spike influenced by Jemaa el-Fnaa and attraction composition

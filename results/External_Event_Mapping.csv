@@ -1,0 +1,3 @@
+City,Drift_Transition,Possible_Context,Event_Period,Temporal_Match,Geographic_Relevance,Review_Level_Support,Attraction_Level_Support,Evidence_Strength,Causal_Claim
+Miami,2020-11 → 2020-12,COVID-19 tourism disruption combined with strong winter holiday travel recovery,December 2020,Strong,Strong,Mixed,Heterogeneous changes across attractions,Moderate contextual association,No
+Marrakech,2024-11 → 2024-12,Record Moroccan tourism and December festival period,December 2024,Strong,Moderate,Negative reviews concentrated particularly at Jemaa el-Fnaa,Strong Jemaa el-Fnaa effect plus attraction-composition change,Weak external-event explanation,No
